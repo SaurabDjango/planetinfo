@@ -1,7 +1,7 @@
-import React, { useState } from 'react';
-import Model from './videoModal'
-import { Link } from 'react-router-dom';
-import logo from '../images/company_logo-removebg-preview.png'
+import React, { useState } from "react";
+import Model from "./videoModal";
+import { Link } from "react-router-dom";
+import logo from "../images/company_logo-removebg-preview.png";
 export default function Nav() {
   const [isOpen, setIsOpen] = useState(false);
 
@@ -36,38 +36,36 @@ export default function Nav() {
           </button>
           <div className="collapse navbar-collapse" id="navbarCollapse">
             <div className="navbar-nav ms-auto py-0">
-              <Link to={'/'} className="nav-item nav-link active" >
+              <Link to={"/"} className="nav-item nav-link active">
                 Home
               </Link>
-              <Link to={'/about'} className="nav-item nav-link active" >About</Link>
-              <Link to={'/contact'} className="nav-item nav-link active" >contact</Link>              
-              <a href="service.html" className="nav-item nav-link">
-                Service
-              </a>    
+              <Link to={"/about"} className="nav-item nav-link active">
+                About
+              </Link>
+              <Link to={"/contact"} className="nav-item nav-link active">
+                contact
+              </Link>
               <div className="nav-item dropdown">
                 <a
                   href="#"
                   className="nav-link dropdown-toggle"
                   data-bs-toggle="dropdown"
                 >
-                  Pages
+                  Products
                 </a>
                 <div className="dropdown-menu m-0">
-                  <a href="team.html" className="dropdown-item">
-                    Our Team
-                  </a>
-                  <a href="testimonial.html" className="dropdown-item">
-                    Testimonial
-                  </a>
-                  <a href="404.html" className="dropdown-item">
-                    404 Page
-                  </a>
+                  <Link to={"/gps"} className="dropdown-item">
+                    GPS Devices{" "}
+                  </Link>
+
+                  <Link to={"#"} className="dropdown-item">
+                    Fuel sensor
+                  </Link>
                 </div>
               </div>
             </div>
           </div>
         </nav>
-
       </div>
     </>
   );
