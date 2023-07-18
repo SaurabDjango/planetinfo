@@ -8,6 +8,7 @@ import Loader from "../components/Loader";
 import TextTransition, { presets } from "react-text-transition";
 import { useEffect, useState } from "react";
 import WhatsappButton from "../components/WhatsappButton";
+import { Link } from "react-router-dom";
 function Home() {
   const [index, setIndex] = useState(0);
   const TEXTS = [
@@ -35,18 +36,16 @@ function Home() {
                   {TEXTS[index % TEXTS.length]}
                 </TextTransition>
               </p>
-              <a
-                href=""
-                className="btn btn-light py-sm-3 px-sm-5 rounded-pill me-3 animated slideInLeft"
-              >
+              <Link className="btn btn-light py-sm-3 px-sm-5 rounded-pill me-3 animated slideInLeft">
                 Free Quote
-              </a>
-              <a
-                href=""
+              </Link>
+
+              <Link
+                to={"/contact"}
                 className="btn btn-outline-light py-sm-3 px-sm-5 rounded-pill animated slideInRight"
               >
-                Contact Us
-              </a>
+                Contact Us{" "}
+              </Link>
             </div>
             <div
               className="col-lg-6 text-center text-lg-start embed-responsive embed-responsive-16by9"

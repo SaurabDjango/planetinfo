@@ -16,17 +16,17 @@ function About() {
               <nav aria-label="breadcrumb">
                 <ol className="breadcrumb justify-content-center">
                   <li className="breadcrumb-item">
-                    <a className="text-white" href="#">
+                    <a className="text-dark" href="#">
                       Home
                     </a>
                   </li>
                   <li className="breadcrumb-item">
-                    <a className="text-white" href="#">
+                    <a className="text-dark" href="#">
                       Pages
                     </a>
                   </li>
                   <li
-                    className="breadcrumb-item text-white active"
+                    className="breadcrumb-item text-dark active"
                     aria-current="page"
                   >
                     About
