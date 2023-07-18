@@ -4,6 +4,7 @@ import { Carousel } from "react-responsive-carousel";
 import Nav from "../components/Nav";
 import Footer from "../components/Footer";
 import logo from "../images/cctv.png";
+
 function GpsCaraSoul() {
   return (
     <>
@@ -31,87 +32,69 @@ function GpsCaraSoul() {
           <div class="col-lg-6">
             <div className="product-content">
               <h2 className="product-title">FMB 920</h2>
-              <a href="#" className="product-link">
-                visit nike store
-              </a>
               <div className="product-rating">
                 <i className="fas fa-star" />
                 <i className="fas fa-star" />
                 <i className="fas fa-star" />
                 <i className="fas fa-star" />
                 <i className="fas fa-star-half-alt" />
-                <span>4.7(21)</span>
+                <span>4.7</span>
               </div>
-              {/* <div className="product-price">
-                <p className="last-price">
-                  Old Price: <span>$257.00</span>
-                </p>
-                <p className="new-price">
-                  New Price: <span>$249.00 (5%)</span>
-                </p>
-              </div> */}
               <div className="product-detail">
                 <h2>about this item: </h2>
                 <p>
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo
-                  eveniet veniam tempora fuga tenetur placeat sapiente
-                  architecto illum soluta consequuntur, aspernatur quidem at
-                  sequi ipsa!
-                </p>
-                <p>
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  Consequatur, perferendis eius. Dignissimos, labore suscipit.
-                  Unde.
+                  Compact and smart tracker with Bluetooth connectivity,
+                  internal High Gain GNSS and GSM antennas and integrated backup
+                  battery
                 </p>
                 <ul>
                   <li>
-                    Color: <span>Black</span>
+                    Brand: <span>Teltonika</span>
                   </li>
                   <li>
-                    Available: <span>in stock</span>
+                    Manufacturer part number: <span>FMB920</span>
                   </li>
                   <li>
-                    Category: <span>Shoes</span>
-                  </li>
-                  <li>
-                    Shipping Area: <span>All over the world</span>
-                  </li>
-                  <li>
-                    Shipping Fee: <span>Free</span>
+                    EAN: <span>4779027311753</span>
                   </li>
                 </ul>
-              </div>
-              {/* <div className="purchase-info">
-                <input type="number" min={0} defaultValue={1} />
-                <button type="button" className="btn">
-                  Add to Cart <i className="fas fa-shopping-cart" />
-                </button>
-                <button type="button" className="btn">
-                  Compare
-                </button>
-              </div> */}
-              <div className="social-links">
-                <p>Share At: </p>
-                <a href="#">
-                  <i className="fab fa-facebook-f" />
-                </a>
-                <a href="#">
-                  <i className="fab fa-twitter" />
-                </a>
-                <a href="#">
-                  <i className="fab fa-instagram" />
-                </a>
-                <a href="#">
-                  <i className="fab fa-whatsapp" />
-                </a>
-                <a href="#">
-                  <i className="fab fa-pinterest" />
-                </a>
               </div>
             </div>
           </div>
         </div>
       </div>
+
+      <div className="container-xxl py-5">
+        <div className="container px-lg-5">
+          <div className="row g-5">
+            <div className="col-lg-6 wow fadeInUp" data-wow-delay="0.1s">
+              <div className="section-title position-relative mb-4 pb-2">
+                <h2 className="mt-2">Detailed description</h2>
+              </div>
+              <p className="mb-4" style={{ textAlign: "-moz-initial" }}>
+                Teltonika FMB920 is compact and smart tracker with Bluetooth
+                connectivity, internal high gain GNSS and GSM antennas and
+                integrated backup battery. FMB920 is designed for light vehicles
+                tracking in applications like insurance telematics, rental cars,
+                recovery of stolen cars, public safety services, delivery
+                transport, taxi and much more. Inputs/outputs extend device
+                usage scenarios. Digital input can be used for ignition, door or
+                alarm button status monitoring. Vehicle remote immobilizing may
+                be achieved using FMB920 digital output.
+              </p>
+            </div>
+            <div className="col-lg-6">
+              <img
+                className="img-fluid wow zoomIn"
+                data-wow-delay="0.5s"
+                src="https://www.getic.com/images/catalogue/description/126/fmb920-5f291f6bc4e2c.jpeg"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+      {/* About End */}
+
       <Footer />
     </>
   );
