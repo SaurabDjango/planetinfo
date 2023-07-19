@@ -58,7 +58,7 @@ export default function Nav() {
                     GPS Devices{" "}
                   </Link>
 
-                  <Link to={"#"} className="dropdown-item">
+                  <Link to={"/sensor"} className="dropdown-item">
                     Fuel sensor
                   </Link>
                 </div>
