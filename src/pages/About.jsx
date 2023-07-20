@@ -48,15 +48,23 @@ function About() {
                   About Us
                 </h6>
                 <h2 className="mt-2">
-                  The best SEO solution with 10 years of experience
+                  Fleets are the beating heart of the global economy.
                 </h2>
               </div>
               <p className="mb-4">
-                Tempor erat elitr rebum at clita. Diam dolor diam ipsum et
-                tempor sit. Aliqu diam amet diam et eos labore. Clita erat ipsum
-                et lorem et sit, sed stet no labore lorem sit. Sanctus clita duo
-                justo et tempor eirmod magna dolore erat amet
+                Here, we believe that each time a commercial vehicle gets access
+                to modern fleet technology, roads become safer, millions of
+                owners and drivers experience prosperity, and there is a
+                positive impact on climate sustainability.
               </p>
+
+              <p className="mb-4">
+                While many strides have been made in the developed world to
+                leverage the best that technology has to offer, fleet owners and
+                drivers elsewhere are still struggling with rudimentary products
+                and services. We are changing that.
+              </p>
+
               <div className="row g-3">
                 <div className="col-sm-6">
                   <h6 className="mb-3">

@@ -19,7 +19,7 @@ export default function Footer() {
               </p>
               <p>
                 <i className="fa fa-envelope me-3" />
-                nfo@planetinfotechtechnology.co.in
+                {/* nfo@planetinfotechtechnology.co.in */}
               </p>
               <div className="d-flex pt-2">
                 <a className="btn btn-outline-light btn-social" href="">

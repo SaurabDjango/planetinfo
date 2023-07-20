@@ -1,5 +1,6 @@
 import Nav from "../components/Nav";
 import Footer from "../components/Footer";
+import Customers from "../components/Customers";
 import gps from "../images/My project.png";
 import cctv from "../images/cctv.png";
 import fmb920 from "../images/gps-product-1.jpg";
@@ -51,19 +52,13 @@ function Home() {
               className="col-lg-6 text-center text-lg-start embed-responsive embed-responsive-16by9"
               style={{ width: "200", height: "200", marginTop: "-3%" }}
             >
-              {/* <iframe
-                  className="embed-responsive-item"
-                  src="https://www.youtube.com/embed/P5D84tD69Mo"
-                  title="YouTube video"
-                  allowFullScreen
-                  width={630}
-                  height={500}
-                ></iframe> */}
               <img class="img-fluid" src="img/hero.png" alt=""></img>
             </div>
           </div>
         </div>
       </div>
+      <Customers />
+      {/* start video modal */}
       <div id="video" class="basic-2 video-section">
         <div class="container">
           <div class="row">
@@ -96,7 +91,7 @@ function Home() {
           </div>
         </div>
       </div>
-
+      {/* end video modal */}
       {/* Service Start */}
       <div className="container-xxl py-5">
         <div className="container px-lg-5">
