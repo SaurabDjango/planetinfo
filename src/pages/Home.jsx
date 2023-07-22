@@ -32,6 +32,7 @@ function Home() {
       <div className="container-xxl py-5  hero-header mb-5">
         <div className="container my-5 py-5 px-lg-5">
           <div className="row g-5 py-5">
+
           <iframe
             width="560"
             height="315"
@@ -41,6 +42,7 @@ function Home() {
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
             allowFullScreen
           ></iframe>
+              
           </div>
         </div>
       </div>
@@ -416,6 +418,14 @@ function Home() {
             </div>
           </div>
         </div>
+      </div>
+      {/* Portfolio End */}
+      <WhatsappButton />
+      <Footer />
+    </>
+  );
+}
+export default Loader(Home);
       </div>
       {/* Portfolio End */}
       <WhatsappButton />
