@@ -28,27 +28,6 @@ function Home() {
   return (
     <>
       <Nav />
-
-      <div className="container-xxl py-5  hero-header mb-5">
-        <div className="container my-5 py-5 px-lg-5">
-          <div className="row g-5 py-5">
-
-          <iframe
-            width="560"
-            height="315"
-            src="https://www.youtube.com/embed/6J8KD68wMKw"
-            title="YouTube video player"
-            frameBorder="0"
-            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-            allowFullScreen
-          ></iframe>
-              
-          </div>
-        </div>
-      </div>
-
-      <Customers />
-
       {/* start video modal */}
       <div id="video" class="basic-2 video-section">
         <div class="container">
@@ -56,33 +35,31 @@ function Home() {
             <div class="col-lg-12">
               <div class="image-container">
                 <div class="video-wrapper">
-                  <a
-                    class="popup-youtube"
-                    href="https://www.youtube.com/embed/fLCjQJCekTs"
-                    data-effect="fadeIn"
+                  <div
+                    className="embed-responsive embed-responsive-16by9"
+                    id="video"
                   >
-                    <img
-                      class="img-fluid"
-                      src="https://d10lvax23vl53t.cloudfront.net/images/Article_Images/ImageForArticle_29(7).jpg"
-                      alt="alternative"
-                    />
-                    <span class="video-play-button">
-                      <span></span>
-                    </span>
-                  </a>
+                    <iframe
+                      className="embed-responsive-item"
+                      src="https://www.youtube.com/embed/6J8KD68wMKw?autoplay=1"
+                      title="YouTube video player"
+                      frameBorder="0"
+                      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                      allowFullScreen
+                    ></iframe>
+                  </div>
                 </div>
               </div>
 
-              <div class="p-heading">
-                What better way to show off Tivo marketing automation SaaS app
-                than presenting you some great situations of each module and
-                tool available to users in a video
-              </div>
+              <div class="p-heading">We build digital experiences.</div>
             </div>
           </div>
         </div>
       </div>
-      {/* end video modal */}
+      {/* end video */}
+
+      <Customers />
+
       {/* Service Start */}
       <div className="container-xxl py-5">
         <div className="container px-lg-5">
@@ -418,14 +395,6 @@ function Home() {
             </div>
           </div>
         </div>
-      </div>
-      {/* Portfolio End */}
-      <WhatsappButton />
-      <Footer />
-    </>
-  );
-}
-export default Loader(Home);
       </div>
       {/* Portfolio End */}
       <WhatsappButton />
