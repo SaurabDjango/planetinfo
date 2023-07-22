@@ -10,6 +10,9 @@ import TextTransition, { presets } from "react-text-transition";
 import { useEffect, useState } from "react";
 import WhatsappButton from "../components/WhatsappButton";
 import { Link } from "react-router-dom";
+
+import "video-react/dist/video-react.css";
+import { Player } from "video-react";
 function Home() {
   const [index, setIndex] = useState(0);
   const TEXTS = [
@@ -25,39 +28,25 @@ function Home() {
   return (
     <>
       <Nav />
-      <div className="container-xxl py-5 bg-primary hero-header mb-5">
+
+      <div className="container-xxl py-5  hero-header mb-5">
         <div className="container my-5 py-5 px-lg-5">
           <div className="row g-5 py-5">
-            <div className="col-lg-6 text-center text-lg-start">
-              <h1 className="text-white mb-4 animated zoomIn">
-                We build digital <br /> experiences.
-              </h1>
-              <p className="text-white pb-3 animated zoomIn">
-                <TextTransition springConfig={presets.wobbly}>
-                  {TEXTS[index % TEXTS.length]}
-                </TextTransition>
-              </p>
-              <Link className="btn btn-light py-sm-3 px-sm-5 rounded-pill me-3 animated slideInLeft">
-                Free Quote
-              </Link>
-
-              <Link
-                to={"/contact"}
-                className="btn btn-outline-light py-sm-3 px-sm-5 rounded-pill animated slideInRight"
-              >
-                Contact Us{" "}
-              </Link>
-            </div>
-            <div
-              className="col-lg-6 text-center text-lg-start embed-responsive embed-responsive-16by9"
-              style={{ width: "200", height: "200", marginTop: "-3%" }}
-            >
-              <img class="img-fluid" src="img/hero.png" alt=""></img>
-            </div>
+          <iframe
+            width="560"
+            height="315"
+            src="https://www.youtube.com/embed/6J8KD68wMKw"
+            title="YouTube video player"
+            frameBorder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            allowFullScreen
+          ></iframe>
           </div>
         </div>
       </div>
+
       <Customers />
+
       {/* start video modal */}
       <div id="video" class="basic-2 video-section">
         <div class="container">

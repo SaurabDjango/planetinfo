@@ -161,7 +161,7 @@ export default function Gps920() {
                 </div>
                 <div class="col-lg-6">
                   <div className="product-content">
-                    <h2 className="product-title">FMB 920</h2>
+                    <h2 className="product-title">FMB 120</h2>
                     <div className="product-rating">
                       <i className="fas fa-star" />
                       <i className="fas fa-star" />

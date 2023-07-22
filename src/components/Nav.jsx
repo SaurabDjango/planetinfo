@@ -61,6 +61,10 @@ export default function Nav() {
                   <Link to={"/sensor"} className="dropdown-item">
                     Fuel sensor
                   </Link>
+
+                  <Link to={"#"} className="dropdown-item">
+                    CCTV cameras
+                  </Link>
                 </div>
               </div>
             </div>
