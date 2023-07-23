@@ -6,6 +6,7 @@ import Contact from "./pages/Contact";
 import About from "./pages/About";
 import GpsCaraSoul from "./pages/GpsCaraSoul";
 import Sensore from "./pages/Sensore";
+import Cameras from "./pages/Cameras";
 const App = () => {
   return (
     <>
@@ -16,6 +17,7 @@ const App = () => {
         <Route path="/gps" element={<GpsCaraSoul />}></Route>
         <Route path="/Sensor" element={<Sensore />}></Route>
         <Route path="/Cus" element={<Customers />}></Route>
+        <Route path="/Cameras" element={<Cameras />}></Route>
       </Routes>
     </>
   );

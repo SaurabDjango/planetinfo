@@ -5,6 +5,7 @@ import { Carousel } from "react-responsive-carousel";
 import Nav from "../components/Nav";
 import Footer from "../components/Footer";
 import logo from "../images/cctv.png";
+import AT04_Gps from "../images/AT04_Gps.jpeg";
 import WhatsappButton from "../components/WhatsappButton";
 
 export default function Gps920() {
@@ -379,6 +380,135 @@ export default function Gps920() {
         </div>
       </div>
       {/* End gps 125 */}
+
+      {/* start Gps AT04 */}
+      <div className="accordion-item" style={{ marginTop: "2%" }}>
+        <h2 className="accordion-header" id="headingFive">
+          <button
+            className="accordion-button collapsed"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#collapseFive"
+            aria-expanded="false"
+            aria-controls="collapseFive"
+          >
+            <h2 className="product-title">AT 04</h2>
+          </button>
+        </h2>
+        <div
+          id="collapseFive"
+          className="accordion-collapse collapse"
+          aria-labelledby="headingFive"
+          data-bs-parent="#accordionExample"
+        >
+          <div className="accordion-body">
+            <div class="container-xxl mb-5">
+              <div class="row">
+                <div class="col col-lg-6">
+                  <Carousel>
+                    <div>
+                      <img src="https://www.iconcox.com/wp-content/uploads/2022/09/LL01.png" />
+                    </div>
+
+                    <div>
+                      <img src="https://www.iconcox.com/wp-content/uploads/2022/09/LL302-1-300x300.png" />
+                    </div>
+
+                    <div>
+                      <img src="https://www.iconcox.com/wp-content/uploads/2022/09/JM-LL02-1-300x300.png" />
+                    </div>
+                  </Carousel>
+                </div>
+                <div class="col-lg-6">
+                  <div className="product-content">
+                    <h2 className="product-title">AT 04</h2>
+                    <div className="product-rating">
+                      <i className="fas fa-star" />
+                      <i className="fas fa-star" />
+                      <i className="fas fa-star" />
+                      <i className="fas fa-star" />
+                      <i className="fas fa-star-half-alt" />
+                      <span>4.7</span>
+                    </div>
+                    <div className="product-detail">
+                      <h2>about this item: </h2>
+                      <p>
+                        The advanced features, rugged construction, and
+                        industry-leading battery life make the AT4 the new state
+                        of the art in asset GPS tracking. Using GPS and LBS
+                        positioning, the magnet-mounted AT4 gives detailed
+                        reports telling you exactly where a vehicle has been,
+                        where it’s headed and how fast it’s traveling.
+                      </p>
+                      <p>
+                        The internal mic allows for audio monitoring of the
+                        environment. With a 10,000mAh battery and IPX5
+                        waterproof rating, the AT4 puts you in total control of
+                        individual vehicles or fleets
+                      </p>
+                      <ul>
+                        <li>
+                          Brand: <span>Concox</span>
+                        </li>
+                        <li>
+                          Manufacturer part number: <span>AT04</span>
+                        </li>
+                        <li>
+                          EAN: <span>4779027312095</span>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div className="container-xxl py-5">
+              <div className="container px-lg-5">
+                <div className="row g-5">
+                  <div className="col-lg-6 wow fadeInUp" data-wow-delay="0.1s">
+                    <div className="section-title position-relative mb-4 pb-2">
+                      <h2 className="mt-2">Detailed description</h2>
+                    </div>
+                    <p className="mb-4" style={{ textAlign: "-moz-initial" }}>
+                      High sensitivity. Fast cold and hot start, which allows
+                      you to count on the most accurate and simple trip
+                      tracking. Support for 3 modes of operation - "home
+                      region", "roaming" and "unknown", blacklist of operators.
+                      Playback is carried out online, constant communication
+                      with the server. There are time synchronization modes if
+                      there is no signal, and a GPRS connection algorithm in
+                      order to save traffic. Very compact and easy to install
+                      and manage tracker, while smart collection of information
+                      based on distance, time, speed data. Control of the start
+                      and end of movement, detection of failures and excessive
+                      idling. It is possible to receive information from
+                      CAN-buses of more than 1800 models of transport: cars and
+                      trucks, buses, agricultural vehicles. Support for
+                      Bluetooth 4.0 + LE, so you can connect a headset,
+                      temperature sensors, humidity and others. Various options
+                      for built-in scenarios: overspeeding, which guarantees the
+                      safety of the driver and prevents the accrual of fines,
+                      identification of a person behind the wheel, auto-geozone,
+                      immobilizer, towing detection, fuel consumption
+                      calculation, GSM signal blocking, accident detection.
+                    </p>
+                  </div>
+                  <div className="col-lg-6">
+                    <img
+                      className="img-fluid wow zoomIn"
+                      data-wow-delay="0.5s"
+                      src="https://www.getic.com/images/catalogue/description/116/fmb120-5f2814866d47d.jpeg"
+                    />
+                  </div>
+                </div>
+              </div>
+            </div>
+            {/* End section */}
+          </div>
+        </div>
+      </div>
+      {/* End Gps AT04 */}
     </>
   );
 }

@@ -36,13 +36,13 @@ export default function Nav() {
           </button>
           <div className="collapse navbar-collapse" id="navbarCollapse">
             <div className="navbar-nav ms-auto py-0">
-              <Link to={"/"} className="nav-item nav-link active">
+              <Link to={"/"} className="nav-item nav-link ">
                 Home
               </Link>
-              <Link to={"/about"} className="nav-item nav-link active">
+              <Link to={"/about"} className="nav-item nav-link ">
                 About
               </Link>
-              <Link to={"/contact"} className="nav-item nav-link active">
+              <Link to={"/contact"} className="nav-item nav-link ">
                 contact
               </Link>
               <div className="nav-item dropdown">
@@ -62,7 +62,7 @@ export default function Nav() {
                     Fuel sensor
                   </Link>
 
-                  <Link to={"#"} className="dropdown-item">
+                  <Link to={"/Cameras"} className="dropdown-item">
                     CCTV cameras
                   </Link>
                 </div>
