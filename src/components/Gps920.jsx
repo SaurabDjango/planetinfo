@@ -471,34 +471,24 @@ export default function Gps920() {
                       <h2 className="mt-2">Detailed description</h2>
                     </div>
                     <p className="mb-4" style={{ textAlign: "-moz-initial" }}>
-                      High sensitivity. Fast cold and hot start, which allows
-                      you to count on the most accurate and simple trip
-                      tracking. Support for 3 modes of operation - "home
-                      region", "roaming" and "unknown", blacklist of operators.
-                      Playback is carried out online, constant communication
-                      with the server. There are time synchronization modes if
-                      there is no signal, and a GPRS connection algorithm in
-                      order to save traffic. Very compact and easy to install
-                      and manage tracker, while smart collection of information
-                      based on distance, time, speed data. Control of the start
-                      and end of movement, detection of failures and excessive
-                      idling. It is possible to receive information from
-                      CAN-buses of more than 1800 models of transport: cars and
-                      trucks, buses, agricultural vehicles. Support for
-                      Bluetooth 4.0 + LE, so you can connect a headset,
-                      temperature sensors, humidity and others. Various options
-                      for built-in scenarios: overspeeding, which guarantees the
-                      safety of the driver and prevents the accrual of fines,
-                      identification of a person behind the wheel, auto-geozone,
-                      immobilizer, towing detection, fuel consumption
-                      calculation, GSM signal blocking, accident detection.
+                      <ul>
+                        <li>GPS+AGPS+LBS Positioning</li>
+                        <li>GPS+AGPS+LBS Positioning</li>
+                        <li>Voice Monitor </li>
+                        <li>Powerful Magnet</li>
+                        <li>Vibration and movement alert</li>
+                        <li>Geo-Fence Alarm </li>
+                        <li>IP65 dust anc waterproof</li>
+                        <li>Tracked by:SMS, </li>
+                        <li>APP and Web</li>
+                      </ul>
                     </p>
                   </div>
                   <div className="col-lg-6">
                     <img
                       className="img-fluid wow zoomIn"
                       data-wow-delay="0.5s"
-                      src="https://www.getic.com/images/catalogue/description/116/fmb120-5f2814866d47d.jpeg"
+                      src="https://5.imimg.com/data5/SELLER/Default/2020/12/HA/TH/EP/27433328/gt03a-magnetic-gps-tracker-500x500.jpg"
                     />
                   </div>
                 </div>

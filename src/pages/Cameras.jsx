@@ -3,7 +3,6 @@ import Footer from "../components/Footer";
 import Loader from "../components/Loader";
 import WhatsappButton from "../components/WhatsappButton";
 import { Carousel } from "react-responsive-carousel";
-import analog1 from "../images/analog1.jpeg";
 import cam1 from "../images/cctv_images/cam1.jpg";
 import cam2 from "../images/cctv_images/cam2.jpg";
 import cam3 from "../images/cctv_images/cam3.jpg";

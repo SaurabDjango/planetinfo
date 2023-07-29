@@ -1,7 +1,7 @@
 import Nav from "../components/Nav";
 import Footer from "../components/Footer";
 import Customers from "../components/Customers";
-import gps from "../images/My project.png";
+// import gps from "../images/My project.png";
 import cctv from "../images/cctv.png";
 import fmb920 from "../images/gps-product-1.jpg";
 import cctv_pro_1 from "../images/cctv-product-2.jpg";
@@ -77,7 +77,7 @@ function Home() {
               <div className="service-item d-flex flex-column justify-content-center text-center rounded">
                 <div className="service-icon flex-shrink-0">
                   <i>
-                    <img style={{ width: "100px" }} src={gps} />
+                    {/* <img style={{ width: "100px" }} src={gps} /> */}
                   </i>
                 </div>
                 <h5 className="mb-3">GPS Technology</h5>

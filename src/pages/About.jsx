@@ -38,6 +38,7 @@ function About() {
         </div>
       </div>
       {/*End hero section */}
+
       {/* About Start */}
       <div className="container-xxl py-5">
         <div className="container px-lg-5">
@@ -88,9 +89,9 @@ function About() {
                 </div>
               </div>
               <div className="d-flex align-items-center mt-4">
-                <a className="btn btn-primary rounded-pill px-4 me-3" href="">
+                {/* <a className="btn btn-primary rounded-pill px-4 me-3" href="">
                   Read More
-                </a>
+                </a> */}
                 <a className="btn btn-outline-primary btn-square me-3" href="">
                   <i className="fab fa-facebook-f" />
                 </a>
@@ -116,6 +117,76 @@ function About() {
         </div>
       </div>
       {/* About End */}
+
+      {/* About Start */}
+      <div className="container-xxl py-5">
+        <div className="container px-lg-5">
+          <div className="row g-5">
+            <div className="col-lg-6 wow fadeInUp" data-wow-delay="0.1s">
+              <div className="section-title position-relative mb-4 pb-2">
+                <h2 className="mt-2">Our Focus</h2>
+              </div>
+              <p className="mb-4">
+                PLANET has always been an entrepreneur in introducing and
+                implementing new technologies customized to its client’s needs.
+                With a dedicated and technically expert team of Pan India
+                engineers, PLANET remains committed to implementing and
+                maintaining networks that are smarter, faster, reliable, and
+                durable
+              </p>
+
+              <div className="row g-3">
+                <div className="col-sm-6">
+                  <h6 className="mb-3">
+                    <i className="fa fa-check text-primary me-2" />
+                    Award Winning
+                  </h6>
+                  <h6 className="mb-0">
+                    <i className="fa fa-check text-primary me-2" />
+                    Professional Staff
+                  </h6>
+                </div>
+                <div className="col-sm-6">
+                  <h6 className="mb-3">
+                    <i className="fa fa-check text-primary me-2" />
+                    24/7 Support
+                  </h6>
+                  <h6 className="mb-0">
+                    <i className="fa fa-check text-primary me-2" />
+                    Fair Prices
+                  </h6>
+                </div>
+              </div>
+              <div className="d-flex align-items-center mt-4">
+                {/* <a className="btn btn-primary rounded-pill px-4 me-3" href="">
+                  Read More
+                </a> */}
+                <a className="btn btn-outline-primary btn-square me-3" href="">
+                  <i className="fab fa-facebook-f" />
+                </a>
+                <a className="btn btn-outline-primary btn-square me-3" href="">
+                  <i className="fab fa-twitter" />
+                </a>
+                <a className="btn btn-outline-primary btn-square me-3" href="">
+                  <i className="fab fa-instagram" />
+                </a>
+                <a className="btn btn-outline-primary btn-square" href="">
+                  <i className="fab fa-linkedin-in" />
+                </a>
+              </div>
+            </div>
+            {/* <div className="col-lg-6">
+              <img
+                className="img-fluid wow zoomIn"
+                data-wow-delay="0.5s"
+                src="img/about.jpg"
+              />
+            </div> */}
+          </div>
+        </div>
+      </div>
+      {/* About End */}
+
       {/* Newsletter Start */}
       <div
         className="container-xxl bg-primary newsletter my-5 wow fadeInUp"

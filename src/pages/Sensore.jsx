@@ -1,13 +1,11 @@
 import Loader from "../components/Loader";
 import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a loader
 import { Carousel } from "react-responsive-carousel";
-import analog1 from "../images/analog1.jpeg";
+import analog1 from "../images/green_analog.jpeg";
+import digital1 from "../images/black_digital.jpeg";
 import Nav from "../components/Nav";
 import Footer from "../components/Footer";
-import logo from "../images/cctv.png";
 import WhatsappButton from "../components/WhatsappButton";
-import fuel1 from "../images/fuel1.png";
-import fuel2 from "../images/fuel2.png";
 
 function Sensore() {
   return (
@@ -227,11 +225,8 @@ function Sensore() {
                       emulateTouch={true}
                     >
                       <div>
-                        <img src={fuel1} />
+                        <img src={digital1} />
                         <p className="legend">Legend 1</p>
-                      </div>
-                      <div>
-                        <img src={fuel2} />
                       </div>
                       {/* <div>
                         <img src="https://india.omnicomm-world.com/upload/iblock/49d/z65f8vvqr7476rdd0aho06ghlcczo86y/480%D1%85650-11.png" />

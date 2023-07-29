@@ -1,5 +1,6 @@
 .accordion-button {
   background-color: #a8dadc;
+  box-shadow: 10px 10px 20px blue;
   /* border-radius: 50%; */
 }
 
