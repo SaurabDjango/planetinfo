@@ -7,6 +7,7 @@ import com4 from "../images/com4.jpeg";
 import com5 from "../images/com5.jpeg";
 import com6 from "../images/com6.jpeg";
 import com7 from "../images/com7.jpeg";
+import com_8 from "../images/com_8.png";
 import styles from "../styles.css";
 
 export default function Customers() {
@@ -87,6 +88,14 @@ export default function Customers() {
                 <li>
                   <img
                     src={com7}
+                    alt="GPS Logo"
+                    style={{ height: "200px", width: "300px" }}
+                  />
+                </li>
+
+                <li>
+                  <img
+                    src={com_8}
                     alt="GPS Logo"
                     style={{ height: "200px", width: "300px" }}
                   />
